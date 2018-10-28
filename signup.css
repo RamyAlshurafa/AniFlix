@@ -1,0 +1,72 @@
+
+html{
+    background-color: gray;
+}
+label:after {
+    color: rgb(224, 47, 31);
+    content: ' *';
+    display:inline;
+}
+section{
+    background-color:lightgrey;
+    
+}
+h3{
+    color:black;
+    background-color: grey;
+    text-align: left;
+}
+
+ .heads{
+    background:rgb(224, 47, 31); 
+ }
+ .heads h1{
+    color:white;
+}
+h4{
+    color:rgb(224, 47, 31);
+}
+span , label {         
+            display: inline-block;
+            width: 200px;
+            text-align: right;
+}      
+form{
+    margin: 0 auto;
+    width: 550px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    background-color:white;
+   
+}
+fieldset {
+          width: 220px;
+          box-sizing: border-box;       
+          border: 1px solid #999;
+}
+textarea, select, input{
+    box-sizing: border-box;
+    width: 220px;
+    box-shadow: 5px 5px 3px 0px rgba(50, 50, 50, 0.75);
+}
+input[type=radio] {
+          width: auto;
+          border: none;
+ }
+textarea {
+          vertical-align: top;
+          height: 5em;
+          resize: vertical;
+}
+.button input {
+            background: rgb(224, 47, 31);
+            margin:0 auto;
+            width:100px;
+            color:white;
+            clear: both;
+            border-radius: 1em;
+ }
+div, .ra, .button {
+            padding-left: 200px;
+        }

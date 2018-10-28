@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <title>Sign Up</title>
+        <link rel="stylesheet" href="signup.css" />
+        <script src="signup.js"></script>
+    </head>
+<body>
+    <header>     
+    </header>
+
+    <form method="post" name="signup"
+		 action="https://httpbin.org/post"
+		 onsubmit="return checkForm();">
+         <div class="heads">           
+         <h1>JobSerch.com</h1>
+         </div>
+    <h2>Create your account</h2>
+    <h4>*Required information</h4>
+         <section>
+         <h3>Basic information</h3><br />
+         <br>
+         <label for="email">Email</label>
+         <input  id="email" name="entry15" type="email" required/><br />
+         <br>
+
+         <label for="ps1">Password</label>
+         <input type="password" name="password" id="ps1" required onchange="validpassword()"><br />
+         <div id="pserror"></div>
+         <br>
+
+         <label for="ps2">Retype Password</label>
+          <input type="password" name="retypepassword" id="ps2" required onchange="validrepassword()"><br /> 
+          <div id="pserror2"></div>
+          <br>
+
+         <label for="name1">User name</label>          
+         <input type="text" name="username" id="name1" required onchange="validusername()"><br /> 
+         <div id="nameerror"></div>
+         <br>
+
+         <label for="name2">name</label>   
+         <input type="text" name="name" id="name2" required onchange="validfirstname()"><br /> 
+         <div id="nameerror2"></div>
+         <br>
+         
+         <label for="address">Address</label> 
+         <input type="text" name="address" id="address"><br /> 
+         <br>
+        
+         </section>
+
+        
+      <div class="button">     
+      <input type="reset" value="Reset"> 
+      <input type="submit" value="Apply">
+      </div>
+     
+
+       
+    </form>
+</body>
+</html>
